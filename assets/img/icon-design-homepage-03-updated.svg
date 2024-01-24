@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84.77 84.23">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-2 {
+        stroke: #e35e29;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        fill: #ff3c2f;
+      }
+
+      .cls-2 {
+        stroke-width: 1px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="-91.61" y="-80.58" width="258" height="239"/>
+  <circle id="Ellipse_1364" data-name="Ellipse 1364" class="cls-4" cx="42.77" cy="42" r="42"/>
+  <g id="Group_11160" data-name="Group 11160">
+    <path id="Path_9396-2" data-name="Path 9396-2" class="cls-3" d="m45.8,61.78l9.86-9.86c11.18-11.18,3.26-30.29-12.54-30.29h0c-15.8,0-23.72,19.11-12.54,30.29l9.86,9.86c1.48,1.48,3.88,1.48,5.37,0Z"/>
+    <circle id="Ellipse_1234" data-name="Ellipse 1234" class="cls-2" cx="43.11" cy="38.67" r="6.06"/>
+  </g>
+</svg>
