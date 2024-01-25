@@ -516,11 +516,30 @@
 	border-bottom: 1px dashed #dadada
 }
 .logo{
-    width: 115px !important;
-    height: 60px !important;
+	width: 164px !important;
+    height: 68px !important;
     object-fit: contain;
 }
 
+.top_banner_card i{
+	font-size: 30px;
+	background-color: #907034;
+height: 100px;
+width: 100px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.top_banner_card h3{
+	margin-top: 20px !important;
+	font-size: 16px;
+}
+.top_banner_card .box-styles{
+	justify-content: center;
+}
 @media (min-width: 1200px) {
 	.container {
 		max-width: 1200px;
@@ -2979,3 +2998,64 @@ a.tag-b:focus {
 		text-align: center;
 	}
 }
+
+
+
+
+
+
+/* testimonial style ................................................. */
+
+.testimonial-slider {
+	background-color: #414141;
+	padding: 2em 2em 3em;
+  }
+  .testimonial-title {
+	color: #fff;
+  }
+  .testimonial-title h2 {
+	padding-left: 0.2em;
+  }
+  .card {
+	margin: 0 0.5em;
+	box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+	border: none;
+	height: 100%;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+	background-color: #fff;
+	width: 3em;
+	height: 3em;
+	border-radius: 50%;
+	top: 60%;
+	transform: translateY(-50%);
+  }
+  
+  @media (min-width: 576px) {
+	.carousel-item {
+	  margin-right: 0;
+	  flex: 0 0 50%;
+	  display: block;
+	}
+	.carousel-inner {
+	  display: flex;
+	}
+  }
+  @media (min-width: 768px) {
+	.carousel-inner {
+	  padding: 1em;
+	}
+	.carousel-control-prev,
+	.carousel-control-next {
+	  opacity: 1;
+	  position: absolute;
+	  left: 1em;
+	  top: 90%;
+	  transform: translateY(-50%);
+	}
+	.carousel-control-next {
+	  left: 5em;
+	}
+  }
+  
