@@ -9825,17 +9825,4 @@ fieldset:disabled .btn {
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
 
-body {
-  font-family: "Poppins";
-  color: #333;
-  font-size: 14px;
-  line-height: 1.42857;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-.wpcf7-response-output {
-  padding: 5px;
-  font-size: 1.5em;
-  float: left;
-  color: red;
-}
+

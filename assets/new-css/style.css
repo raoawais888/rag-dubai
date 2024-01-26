@@ -798,8 +798,18 @@
 	
 	.btn-orange:hover {
 		color: #fff;
-		background-color: #815607;
-		border-color: #815607;
+		background-color: #414141;
+		border-color: #414141;
+	}
+	.btn-dark{
+		color: #fff;
+		background-color: #414141 ;
+		border-color: #414141 ;
+	}
+	.btn-dark:hover{
+		color: #fff;
+		background-color: #907034 ;
+		border-color: #907034 ;
 	}
 	
 	.custom-arrows .main-prev,
