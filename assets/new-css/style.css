@@ -655,7 +655,7 @@
         /*.navright {position: absolute;margin-left: 35% !important;left: 0;right: 0;text-align: center}  
 .ar-body .navright {position: absolute;margin-right: 35% !important;bottom: -38%;left: 0;right: 0;text-align: center}  */
         #mainheader {
-            height: 100px;
+            height: auto;
         }
         .mainbar {
             left: 0;
