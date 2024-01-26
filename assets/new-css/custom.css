@@ -3207,10 +3207,77 @@ a.tag-b:focus {
 	  left: 5em;
 	}
 
-	
-  
+
   }
 
+  /* off plan page css .......................................... */
+.landingpage .bg-top{
+  background: linear-gradient(rgb(86 96 114 / 54%), rgb(18 17 19 / 70%)) center center / cover no-repeat, url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  /* off plan page css .......................................... */
+
+  .landingpage .header_form{
+	background-color: #414141;
+  }
+
+  .landingpage h2{
+	font-size: 20px;
+	margin-top: 30px;
+  }
+
+  .landing-box .box{
+	padding: 20px;
+	background-color: #414141;
+	text-align: center;
+	color: #FFF  !important;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+	border-radius: 10px;
+
+  }
+
+  .property_gallery {
+    margin: 4rem 0 4rem;
+}
+
+.photos-grid-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    align-items: start;
+}
+
+.photos-grid-container .main-photo {
+    grid-row: 1;
+    grid-column: 1;
+    height: 94%;
+}
+.photos-grid-container .img-box {
+    position: relative;
+}
+
+.photos-grid-container img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    border-radius: 1.2rem;
+    height: 100%;
+}
+
+.hide-element {
+    border: 0;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
 
   @media (max-width:768px){
 
