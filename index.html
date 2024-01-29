@@ -54,17 +54,8 @@
 				</ul>
 				<ul class="navbar-nav navright ms-auto d-flex align-items-center justify-content-center" >
 					<li class="nav-item px-0"><a style="font-size: 17px;" class="nav-link py-0 text-white" title="Facebook" target="_blank" href="#"><i class="fab fa-facebook"></i></a></li>
-					<li class="nav-item px-0">
-						<a style="font-size: 17px;" class="nav-link py-0 text-white" title="Twitter" target="_blank" href="#">
-							<svg width="13" height="13" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg">
-								<path d="M178.57 127.15 290.27 0h-26.46l-97.03 110.38L89.34 0H0l117.13 166.93L0 300.25h26.46l102.4-116.59 81.8 116.59h89.34M36.01 19.54H76.66l187.13 262.13h-40.66" fill="white" />
-							</svg>
-						</a>
-					</li>
 					<li class="nav-item px-0"><a style="font-size: 17px;" class="nav-link py-0 text-white" title="Instagram" target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
-					<li class="nav-item px-0"><a style="font-size: 17px;" class="nav-link py-0 text-white" title="Snapchat" target="_blank" href="#"><i class="fab fa-snapchat"></i></a></li>
 					<li class="nav-item px-0"><a style="font-size: 17px;" class="nav-link py-0 text-white" title="Linkedin" target="_blank" href="#"><i class="fab fa-linkedin"></i></a></li>
-					<li class="nav-item px-0"><a style="font-size: 17px;" class="nav-link py-0 text-white" title="Youtube" target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
 					<li class="nav-item px-0"><a style="font-size: 17px;" class="nav-link py-0 text-white" title="VK" target="_blank" href="#"><i class="fab fa-vk"></i></a></li>
 					<li class="nav-item px-0">
 						<select class="form-select langswitch py-2 dir-rtl text-white border-0" style="background-color: #414141 !important;" aria-label="Default select example" id="selLang" name="selLang">
@@ -133,16 +124,6 @@
 									<div class="nav-link searchProjectModal" title="Search Projects" aria-label="searchProjectModal"  data-bs-toggle="modal" data-bs-target="#searchProjectModal"><i name="search" aria-hidden="true" alt="search icon" title="search icon" class="fas fa-search"></i><span class="sr-only">Search</span></div>
 								</li>
 							</ul>
-							<ul class="navbar-nav navright ms-auto d-none d-xl-flex">
-								
-								
-
-								<!-- <li class="nav-item px-2 dropdown"> <a class="nav-link  dropdown-menu-toggle" title="Dubai" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dubai</a>
-									<div class="dropdown-menu" style="font-size: 14px;" aria-labelledby="navbarDropdown4"> <a class="dropdown-item" title="Abu Dhabi" href="#">Abu Dhabi</a> <a class="dropdown-item" title="Dubai" href="/en/dubai/">Dubai</a> <a class="dropdown-item" title="Sharjah" href="/en/sharjah-city/">Sharjah</a> <a class="dropdown-item" title="Al Ain" href="#">Al Ain</a> <a class="dropdown-item" title="Ras Al Khaimah" href="#">Ras Al Khaimah</a> </div>
-								</li> -->
-								<a class="btn btn-orange ff-montserrat px-5 rounded-3 show-inquire-modal">Action </a>
-
-							</ul>
 						</div>
 					</nav>
 
@@ -162,7 +143,7 @@
                             <div class="col-6 mb-3 p-0 m-0 px-2 text-start">
                                 <a href="index.html">
 
-                                    <img data-cfsrc="/assets/images/ad-real-estate-logo-only-new-2.png" class="mx-2 logo" width="40px" height="40px"  alt="psi logo" title="psi logo" src="./assets/images/ad-real-estate-logo-only-new-2.png">
+                                    <img data-cfsrc="/assets/images/ad-real-estate-logo-only-new-2.png" class="mx-2 logo" width="40px" height="40px"  alt="RAG logo" title="RAG logo" src="./assets/images/ad-real-estate-logo-only-new-2.png">
                                 </a></div>
 
                             <div class="col-6 mb-3 p-0 m-0 px-2 text-end">
@@ -319,7 +300,62 @@
 		</div>
 	</div>
 
+	<section class="section-filter home_filter">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 mx-auto">
 
+			
+		<div class="container price_filter box-styles shadow">
+			<div class="row align-items-center">
+				<div class="col-lg-4">
+					<div class="form-group">
+					
+						<select name="" class="form-control" id="">
+							<option value="" selected="" disabled="">select Area</option>
+						</select>
+					</div>
+				</div>
+	
+				<div class="col-lg-6">
+					<div class="d-flex">
+						<div class="wrapper">
+						  
+						  <div class="price-input">
+							<div class="field">
+							  <span>Min</span>
+							  <input type="number" class="input-min" value="2500">
+							</div>
+							<div class="separator">-</div>
+							<div class="field">
+							  <span>Max</span>
+							  <input type="number" class="input-max" value="7500">
+							</div>
+						  </div>
+						  <div class="slider">
+							<div class="progress"></div>
+						  </div>
+						  <div class="range-input">
+							<input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
+							<input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
+						  </div>
+						</div>
+					
+						<!--   Support Section -->
+					</div>
+					  </div>
+	
+	
+					  <div class="col-lg-2 filter_btn">
+						<button class="btn btn-orange ff-montserrat  rounded-3 px-5 py-2"> Filter</button>
+					  </div>
+		  </div>
+		 </div>
+
+		</div>
+	</div>
+</div>
+	</section>
 
      <!-- provide section ................................................................ -->
 	<div class="container-fluid px-0 top-lists top_banner_card">
@@ -420,7 +456,7 @@
 					
 				<h2 class="h5 text-start">Dubai Communities</h2></a></div>
 				
-				<div class="col-5 text-end"><a href="#" class="no-underline">View All</a> </div>
+				<div class="col-5 text-end"><a href="community.html" class="no-underline">View All</a> </div>
 				<div class="col-12 px-0 mt-2 mb-4 text-center">
 					<div class="psi-slider-main">
 						<button class="btn psi-list-left-btn" style="display: none">&nbsp;</button>
@@ -434,7 +470,7 @@
 												<div class="row p-0 h-100">
 													<div class="col-12 p-0 grid-new">
 														<figure class="effect-hover-new mb-0 h-100 project-grid " style="background-color: #8b8a8a; border-top-right-radius: 12px;border-top-left-radius: 12px;">
-															<a href="#" class="" title="Haven"><img data-src="https://images.unsplash.com/photo-1590765407066-12de51f9565b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFsbSUyMGp1bWVpcmFofGVufDB8fDB8fHww" alt="Haven icon" title="Haven icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
+															<a href="community.html" class="" title="Haven"><img data-src="https://images.unsplash.com/photo-1590765407066-12de51f9565b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFsbSUyMGp1bWVpcmFofGVufDB8fDB8fHww" alt="Haven icon" title="Haven icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
 																<figcaption>
 																	<div class="h-100 d-flex align-items-center">
 																		<div class="col-12">
@@ -480,7 +516,7 @@
 												<div class="row p-0 h-100">
 													<div class="col-12 p-0 grid-new">
 														<figure class="effect-hover-new mb-0 h-100 project-grid " style="background-color: #8b8a8a; border-top-right-radius: 12px;border-top-left-radius: 12px;">
-															<a href="#" class="" title="Jebel Ali Hills"><img data-src="https://plus.unsplash.com/premium_photo-1661943659036-aa040d92ee64?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Jebel Ali Hills icon" title="Jebel Ali Hills icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
+															<a href="community.html" class="" title="Jebel Ali Hills"><img data-src="https://plus.unsplash.com/premium_photo-1661943659036-aa040d92ee64?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Jebel Ali Hills icon" title="Jebel Ali Hills icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
 																<figcaption>
 																	<div class="h-100 d-flex align-items-center">
 																		<div class="col-12">
@@ -492,7 +528,7 @@
 															 </figure>
 													</div>
 													<div class="col-12 px-0 px-md-2">
-														<a title="Jebel Ali Hills" href="#">
+														<a title="Jebel Ali Hills" href="community.html">
 															<div class="row p-3 d-flex align-items-center m-0">
 																<div class="col-12 p-0">
 																	<div class="row m-0">
@@ -523,7 +559,7 @@
 												<div class="row p-0 h-100">
 													<div class="col-12 p-0 grid-new">
 														<figure class="effect-hover-new mb-0 h-100 project-grid " style="background-color: #8b8a8a; border-top-right-radius: 12px;border-top-left-radius: 12px;">
-															<a href="#" class="" title="Azizi Venice"><img data-src="https://images.unsplash.com/photo-1579524655638-351438cb80d2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Azizi Venice icon" title="Azizi Venice icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
+															<a href="community.html" class="" title="Azizi Venice"><img data-src="https://images.unsplash.com/photo-1579524655638-351438cb80d2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Azizi Venice icon" title="Azizi Venice icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
 																<figcaption>
 																	<div class="h-100 d-flex align-items-center">
 																		<div class="col-12">
@@ -569,7 +605,7 @@
 												<div class="row p-0 h-100">
 													<div class="col-12 p-0 grid-new">
 														<figure class="effect-hover-new mb-0 h-100 project-grid " style="background-color: #8b8a8a; border-top-right-radius: 12px;border-top-left-radius: 12px;">
-															<a href="#" class="" title="Casa Damac Tower"><img data-src="https://images.unsplash.com/photo-1651127244263-ec7c496031b1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Casa Damac Tower icon" title="Casa Damac Tower icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
+															<a href="community.html" class="" title="Casa Damac Tower"><img data-src="https://images.unsplash.com/photo-1651127244263-ec7c496031b1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Casa Damac Tower icon" title="Casa Damac Tower icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
 																<figcaption>
 																	<div class="h-100 d-flex align-items-center">
 																		<div class="col-12">
@@ -613,7 +649,7 @@
 												<div class="row p-0 h-100">
 													<div class="col-12 p-0 grid-new">
 														<figure class="effect-hover-new mb-0 h-100 project-grid " style="background-color: #8b8a8a; border-top-right-radius: 12px;border-top-left-radius: 12px;">
-															<a href="#" class="" title="Casa Damac Tower"><img data-src="https://plus.unsplash.com/premium_photo-1661963885635-2b428cedce28?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Casa Damac Tower icon" title="Casa Damac Tower icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
+															<a href="community.html" class="" title="Casa Damac Tower"><img data-src="https://plus.unsplash.com/premium_photo-1661963885635-2b428cedce28?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Casa Damac Tower icon" title="Casa Damac Tower icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
 																<figcaption>
 																	<div class="h-100 d-flex align-items-center">
 																		<div class="col-12">
@@ -657,7 +693,7 @@
 												<div class="row p-0 h-100">
 													<div class="col-12 p-0 grid-new">
 														<figure class="effect-hover-new mb-0 h-100 project-grid " style="background-color: #8b8a8a; border-top-right-radius: 12px;border-top-left-radius: 12px;">
-															<a href="#" class="" title="Casa Damac Tower"><img data-src="https://images.unsplash.com/photo-1609874351819-8a267932ed67?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Casa Damac Tower icon" title="Casa Damac Tower icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
+															<a href="" class="" title="Casa Damac Tower"><img data-src="https://images.unsplash.com/photo-1609874351819-8a267932ed67?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Casa Damac Tower icon" title="Casa Damac Tower icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
 																<figcaption>
 																	<div class="h-100 d-flex align-items-center">
 																		<div class="col-12">
@@ -669,7 +705,7 @@
 															</a> </figure>
 													</div>
 													<div class="col-12 px-0 px-md-2">
-														<a title="Casa Damac Tower" href="#">
+														<a title="Casa Damac Tower" href="community.html">
 															<div class="row p-3 d-flex align-items-center m-0">
 																<div class="col-12 p-0">
 																	<div class="row m-0">
@@ -701,7 +737,7 @@
 												<div class="row p-0 h-100">
 													<div class="col-12 p-0 grid-new">
 														<figure class="effect-hover-new mb-0 h-100 project-grid " style="background-color: #8b8a8a; border-top-right-radius: 12px;border-top-left-radius: 12px;">
-															<a href="#" class="" title="Casa Damac Tower"><img data-src="https://images.unsplash.com/flagged/photo-1559717865-a99cac1c95d8?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Casa Damac Tower icon" title="Casa Damac Tower icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
+															<a href="community.html" class="" title="Casa Damac Tower"><img data-src="https://images.unsplash.com/flagged/photo-1559717865-a99cac1c95d8?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Casa Damac Tower icon" title="Casa Damac Tower icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
 																<figcaption>
 																	<div class="h-100 d-flex align-items-center">
 																		<div class="col-12">
@@ -713,7 +749,7 @@
 															</a> </figure>
 													</div>
 													<div class="col-12 px-0 px-md-2">
-														<a title="Casa Damac Tower" href="#">
+														<a title="Casa Damac Tower" href="community.html">
 															<div class="row p-3 d-flex align-items-center m-0">
 																<div class="col-12 p-0">
 																	<div class="row m-0">
@@ -757,7 +793,7 @@
 															</a> </figure>
 													</div>
 													<div class="col-12 px-0 px-md-2">
-														<a title="Casa Damac Tower" href="#">
+														<a title="Casa Damac Tower" href="community.html">
 															<div class="row p-3 d-flex align-items-center m-0">
 																<div class="col-12 p-0">
 																	<div class="row m-0">
@@ -807,7 +843,7 @@
 												<div class="row p-0 h-100">
 													<div class="col-12 p-0 grid-new">
 														<figure class="effect-hover-new mb-0 h-100 project-grid " style="background-color: #8b8a8a; border-top-right-radius: 12px;border-top-left-radius: 12px;">
-															<a href="#" class="" title="Haven"><img data-src="/assets/uploads/images/haven-exterior-images-8jpg-342x225.jpg" alt="Haven icon" title="Haven icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
+															<a href="off-plan.html" class="" title="Haven"><img data-src="/assets/uploads/images/haven-exterior-images-8jpg-342x225.jpg" alt="Haven icon" title="Haven icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
 																<figcaption>
 																	<div class="h-100 d-flex align-items-center">
 																		<div class="col-12">
@@ -820,7 +856,7 @@
 															</a> <a title="Units of Haven" href="#" class="position-absolute bottom-0 start-0 text-decoration-none" style="background-color: rgb(0 0 0 / 33%);color: #fff;padding: 10px 25px;">2,550,000 AED</a> </figure>
 													</div>
 													<div class="col-12 px-0 px-md-2">
-														<a title="Haven" href="#">
+														<a title="Haven" href="off-plan.html">
 															<div class="row p-3 d-flex align-items-center m-0">
 																<div class="col-12 p-0">
 																	<div class="row m-0">
@@ -861,7 +897,7 @@
 												<div class="row p-0 h-100">
 													<div class="col-12 p-0 grid-new">
 														<figure class="effect-hover-new mb-0 h-100 project-grid " style="background-color: #8b8a8a; border-top-right-radius: 12px;border-top-left-radius: 12px;">
-															<a href="#" class="" title="Jebel Ali Hills"><img data-src="/assets/uploads/images/10468059-7bb38ojpg-342x225.jpg" alt="Jebel Ali Hills icon" title="Jebel Ali Hills icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
+															<a href="off-plan.html" class="" title="Jebel Ali Hills"><img data-src="/assets/uploads/images/10468059-7bb38ojpg-342x225.jpg" alt="Jebel Ali Hills icon" title="Jebel Ali Hills icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
 																<figcaption>
 																	<div class="h-100 d-flex align-items-center">
 																		<div class="col-12">
@@ -874,7 +910,7 @@
 															</a> <a title="Units of Jebel Ali Hills" href="#" class="position-absolute bottom-0 start-0 text-decoration-none" style="background-color: rgb(0 0 0 / 33%);color: #fff;padding: 10px 25px;">1,619,479 AED</a> </figure>
 													</div>
 													<div class="col-12 px-0 px-md-2">
-														<a title="Jebel Ali Hills" href="#">
+														<a title="Jebel Ali Hills" href="off-plan.html">
 															<div class="row p-3 d-flex align-items-center m-0">
 																<div class="col-12 p-0">
 																	<div class="row m-0">
@@ -911,7 +947,7 @@
 												<div class="row p-0 h-100">
 													<div class="col-12 p-0 grid-new">
 														<figure class="effect-hover-new mb-0 h-100 project-grid " style="background-color: #8b8a8a; border-top-right-radius: 12px;border-top-left-radius: 12px;">
-															<a href="#" class="" title="Azizi Venice"><img data-src="/assets/uploads/images/azizi-venice-dubai-uae-3jpg-342x225.jpg" alt="Azizi Venice icon" title="Azizi Venice icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
+															<a href="off-plan.html" class="" title="Azizi Venice"><img data-src="/assets/uploads/images/azizi-venice-dubai-uae-3jpg-342x225.jpg" alt="Azizi Venice icon" title="Azizi Venice icon" class="img-responsive w-100 lazy" style="height: 220px;width:100%" />
 																<figcaption>
 																	<div class="h-100 d-flex align-items-center">
 																		<div class="col-12">
@@ -925,7 +961,7 @@
 														</figure>
 													</div>
 													<div class="col-12 px-0 px-md-2">
-														<a title="Azizi Venice" href="#">
+														<a title="Azizi Venice" href="off-plan.html">
 															<div class="row p-3 d-flex align-items-center m-0">
 																<div class="col-12 p-0">
 																	<div class="row m-0">
@@ -1263,33 +1299,39 @@
 		<div class=" px-0 mx-0 pt-5 pb-md-0 pb-3 my-5 px-0">
 			<div class="container-lg">
 				<ul id="sectionTabs" class="nav psi-tabs2 justify-content-md-start border-bottom" role="tablist" style="border-radius: 8px 8px 0px 0px; /*background: #FFFFFF; box-shadow: 15px 15px 35px 5px rgba(0, 123, 255, 0.1);*/">
-					<li class="nav-item text-center" role="presentation" align="center" ><a rel="nofollow" class="nav-link active" id="youngsterTab" title="Youngsters Program" data-bs-toggle="tab" href="#youngsterProgram" role="tab" aria-controls="youngsterProgram" aria-selected="false" style="text-align:center;">Youngsters Program</a></li>
-					<li class="nav-item text-center" role="presentation" align="center" ><a rel="nofollow" class="nav-link " title="Crypto" id="cryptoTab" data-bs-toggle="tab" href="#crypto" role="tab" aria-controls="crypto" aria-selected="false" style="text-align:center;"><span>Crypto</a></li>
-					<li class="nav-item text-center" role="presentation" align="center" ><a rel="nofollow" class="nav-link " id="interTab" title="PSI International" data-bs-toggle="tab" href="#" role="tab" aria-controls="psiInternational" aria-selected="false" style="text-align:center;">PSI International</a></li>
-					<li class="nav-item text-center" role="presentation" align="center"><a rel="nofollow" class="nav-link " id="profileTab" title="Company Profile" data-bs-toggle="tab" href="#companyProfile" role="tab" aria-controls="companyProfile" aria-selected="false" style="text-align:center;">Company Profile</a></li>
+					<!-- <li class="nav-item text-center" role="presentation" align="center" ><a rel="nofollow" class="nav-link active" id="youngsterTab" title="Youngsters Program" data-bs-toggle="tab" href="#youngsterProgram" role="tab" aria-controls="youngsterProgram" aria-selected="false" style="text-align:center;">Youngsters Program</a></li> -->
+					<li class="nav-item text-center" role="presentation"  ><a rel="nofollow" class="nav-link active " title="Crypto" id="cryptoTab" data-bs-toggle="tab" href="#crypto" role="tab" aria-controls="crypto" aria-selected="false" style="text-align:center;"><span>Crypto</a></li>
+
+					<li class="nav-item text-center" role="presentation"  ><a rel="nofollow" class="nav-link " id="psiInternational" title="RAG International" data-bs-toggle="tab" href="#psiInternational" role="tab" aria-controls="psiInternational" aria-selected="false" style="text-align:center;">RAG International</a></li>
+
+
+
+					<li class="nav-item text-center" role="presentation" ><a rel="nofollow" class="nav-link " id="profileTab" title="Company Profile" data-bs-toggle="tab" href="#companyProfile" role="tab" aria-controls="companyProfile" aria-selected="false" style="text-align:center;">Company Profile</a></li>
+
+
 				</ul>
 			</div>
 
 
 
 			<div class="tab-content ">
-				<div class="tab-pane fade active show mx-0 px-0" id="youngsterProgram" role="tabpanel" aria-labelledby="youngsterTab">
+				<!-- <div class="tab-pane fade active show mx-0 px-0" id="youngsterProgram" role="tabpanel" aria-labelledby="youngsterTab">
 					<div class="container-lg mx-auto px-4 my-0 px-0">
 						<div class="row p-0 m-0">
 							<div class="col-md-6 pt-md-5 pt-3 pb-md-0 pb-0 px-0 mx-0">
 								<div class="py-md-5 my-md-2 mx-md-0 px-md-0 px-3 tablink-content">
-									<h5 class="mt-4 mb-3">PSI Abu Dhabi Youngsters</h5>
-									<p class="mt-4 w-100 pb-0" style="font-weight: 400; letter-spacing: -0.5px;">Unlock your potential through <span class="w-100" style="color:#907034;font-weight: 600;">PSI Abu Dhabi Youngster</span> Program by empowering minds, and shaping futures</p> <a title="PSI youngsters" href="#" target="_blank" class="btn mt-3 d-md-block d-none" aria-label="youngster" style="font-size:20px; background-color:#907034; color:#ffffff; border-radius: 8px; padding: 8px 20px; gap: 10px;">Learn more</a> </div>
+									<h5 class="mt-4 mb-3">RAG Abu Dhabi Youngsters</h5>
+									<p class="mt-4 w-100 pb-0" style="font-weight: 400; letter-spacing: -0.5px;">Unlock your potential through <span class="w-100" style="color:#907034;font-weight: 600;">RAG Abu Dhabi Youngster</span> Program by empowering minds, and shaping futures</p> <a title="RAG youngsters" href="#" target="_blank" class="btn mt-3 d-md-block d-none" aria-label="youngster" style="font-size:20px; background-color:#907034; color:#ffffff; border-radius: 8px; padding: 8px 20px; gap: 10px;">Learn more</a> </div>
 							</div>
 							<div class="col-md-6 py-md-5 pb-md-0" 
                             
                             style="background: url(/assets/img/icons/youngster_cover2.jpdg) right bottom / cover no-repeat; background-position: right bottom; background-repeat: no-repeat;background-size: 90%;"> <img src="/assets/img/icons/youngster_cover2.jpg" alt="Youngsters" title="Youngsters" width="646" height="478.39" loading="lazy" class="img-fluid my-md-5 d-md-block d-none">
                             
-                            <img src="/assets/img/icons/youngster_cover2.jpg" alt="Youngsters" title="Youngsters" width="646" height="478.39" loading="lazy" class="img-fluid my-md-5 d-md-none d-block"> <a title="PSI youngsters" href="#" target="_blank" class="btn mt-3 d-md-none d-md-block w-100" aria-label="youngster" style="font-size:20px; background-color:#907034; color:#ffffff; border-radius: 8px; padding: 8px 20px; gap: 10px;">Learn more</a> </div>
+                            <img src="/assets/img/icons/youngster_cover2.jpg" alt="Youngsters" title="Youngsters" width="646" height="478.39" loading="lazy" class="img-fluid my-md-5 d-md-none d-block"> <a title="RAG youngsters" href="#" target="_blank" class="btn mt-3 d-md-none d-md-block w-100" aria-label="youngster" style="font-size:20px; background-color:#907034; color:#ffffff; border-radius: 8px; padding: 8px 20px; gap: 10px;">Learn more</a> </div>
 						</div>
 					</div>
-				</div>
-				<div class="tab-pane fade mx-0 px-0" id="crypto" role="tabpanel" aria-labelledby="cryptoTab">
+				</div> -->
+				<div class="tab-pane fade mx-0 px-0 " id="crypto" role="tabpanel" aria-labelledby="cryptoTab">
 					<div class="container-lg mx-auto px-4 my-0 px-0">
 						<div class="row p-0 m-0">
 							<div class="col-md-6 pt-md-5 pt-3 pb-md-5 pb-0 px-0 mx-0">
@@ -1302,30 +1344,34 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="tab-pane fade mx-0 px-0" id="psiInternational" role="tabpanel" aria-labelledby="interTab">
+
+					<div class="container-lg mx-auto px-4 my-0 px-0">
+						<div class="row p-0 m-0">
+							<div class="col-md-6 pt-md-5 pt-3 pb-md-5 pb-0 px-0 mx-0" style="background: url(/assets/img/icons/Oval-1.webp) left top / cover no-repeat; background-position: left top;background-repeat: no-repeat;background-size: 70%;">
+								<div class="py-md-5 my-md-2 mx-md-0 px-md-0 px-3 tablink-content">
+									<h5 class="mt-3 mb-3">RAG International</h5>
+									<p class="my-4 w-100" style="font-weight: 400;">50 years young, the UAE offers the best climate for wealth management, relocation and investments portfolios.</p> <a title="international" href="#" target="_blank" class="btn mt-3 d-md-block d-none" aria-label="international" style="font-size:20px; background-color:#907034; color:#ffffff; border-radius: 8px; padding: 8px 20px; gap: 10px;">Learn more about RAG International</a> </div>
+							</div>
+							<div class="col-md-6 py-md-5"> <img src="/assets/img/icons/international_cover.webp" alt="international" title="international" width="646" height="478.39" loading="lazy" class="img-fluid my-md-5"> <a title="international" href="/en/international/" target="_blank" class="btn mt-3 d-md-none d-block" aria-label="international" style="font-size:20px; background-color:#907034; color:#ffffff; border-radius: 8px; padding: 8px 20px; gap: 10px;">Learn more about RAG International</a> </div>
+						</div>
+					</div>
+				</div>
+
 				<div class="tab-pane fade mx-0 px-0" id="companyProfile" role="tabpanel" aria-labelledby="profileTab">
 					<div class="container-lg mx-auto px-4 my-0 px-0">
 						<div class="row p-0 m-0">
 							<div class="col-md-6 pt-md-5 pt-3 pb-md-5 pb-0 px-0 mx-0">
 								<div class="py-md-5 my-md-2 mx-md-0 px-md-0 px-3 tablink-content">
-									<h2 class="mt-3 mb-3">Why PSI ?</h2>
-									<p class="my-4 w-100" style="line-height: 177%; font-weight: 400; letter-spacing: -0.5px;">Our combination of vision, expertise, specialised teams, enthusiasm and transparency entitles Property Shop Invesment to set the market standard as an influencer of Abu Dhabi’s Real Estate Market. </p> <a title="corporate" href="#" target="_blank" class="btn mt-3 d-md-block d-none" aria-label="corporate" style="font-size:20px; background-color:#907034; color:#ffffff; border-radius: 8px; padding: 8px 20px; gap: 10px;">Learn more  about PSI</a> </div>
+									<h2 class="mt-3 mb-3">Why RAG ?</h2>
+									<p class="my-4 w-100" style="line-height: 177%; font-weight: 400; letter-spacing: -0.5px;">Our combination of vision, expertise, specialised teams, enthusiasm and transparency entitles Property Shop Invesment to set the market standard as an influencer of Abu Dhabi’s Real Estate Market. </p> <a title="corporate" href="#" target="_blank" class="btn mt-3 d-md-block d-none" aria-label="corporate" style="font-size:20px; background-color:#907034; color:#ffffff; border-radius: 8px; padding: 8px 20px; gap: 10px;">Learn more  about RAG</a> </div>
 							</div>
-							<div class="col-md-6 py-md-5" style="background: url(/assets/img/icons/bg-cover.webp) center center / cover no-repeat; background-position: center;background-repeat: no-repeat;background-size: cover;"> <img src="/assets/img/icons/corporate_cover.webp" alt="corporate" title="corporate" width="646" height="478.39" loading="lazy" class="img-fluid my-md-5"> <a title="corporate" href="#" target="_blank" class="btn mt-3 d-md-none d-block" aria-label="corporate" style="font-size:20px; background-color:#907034; color:#ffffff; border-radius: 8px; padding: 8px 20px; gap: 10px;">Learn more  about PSI</a> </div>
+							<div class="col-md-6 py-md-5" style="background: url(/assets/img/icons/bg-cover.webp) center center / cover no-repeat; background-position: center;background-repeat: no-repeat;background-size: cover;"> <img src="/assets/img/icons/corporate_cover.webp" alt="corporate" title="corporate" width="646" height="478.39" loading="lazy" class="img-fluid my-md-5"> <a title="corporate" href="#" target="_blank" class="btn mt-3 d-md-none d-block" aria-label="corporate" style="font-size:20px; background-color:#907034; color:#ffffff; border-radius: 8px; padding: 8px 20px; gap: 10px;">Learn more  about RAG</a> </div>
 						</div>
 					</div>
 				</div>
-				<div class="tab-pane fade mx-0 px-0" id="psiInternational" role="tabpanel" aria-labelledby="interTab">
-					<div class="container-lg mx-auto px-4 my-0 px-0">
-						<div class="row p-0 m-0">
-							<div class="col-md-6 pt-md-5 pt-3 pb-md-5 pb-0 px-0 mx-0" style="background: url(/assets/img/icons/Oval-1.webp) left top / cover no-repeat; background-position: left top;background-repeat: no-repeat;background-size: 70%;">
-								<div class="py-md-5 my-md-2 mx-md-0 px-md-0 px-3 tablink-content">
-									<h5 class="mt-3 mb-3">PSI International</h5>
-									<p class="my-4 w-100" style="font-weight: 400;">50 years young, the UAE offers the best climate for wealth management, relocation and investments portfolios.</p> <a title="international" href="#" target="_blank" class="btn mt-3 d-md-block d-none" aria-label="international" style="font-size:20px; background-color:#907034; color:#ffffff; border-radius: 8px; padding: 8px 20px; gap: 10px;">Learn more about PSI International</a> </div>
-							</div>
-							<div class="col-md-6 py-md-5"> <img src="/assets/img/icons/international_cover.webp" alt="international" title="international" width="646" height="478.39" loading="lazy" class="img-fluid my-md-5"> <a title="international" href="/en/international/" target="_blank" class="btn mt-3 d-md-none d-block" aria-label="international" style="font-size:20px; background-color:#907034; color:#ffffff; border-radius: 8px; padding: 8px 20px; gap: 10px;">Learn more about PSI International</a> </div>
-						</div>
-					</div>
-				</div>
+			
 			</div>
 		</div>
 	</section>
@@ -1333,11 +1379,11 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="overflow-auto" style="max-height:300px">
-					<h2 class="h5 text-center mb-3">About PSI</h2>
-					<p class="">Established in 2007, Property Shop Investment (PSI) is one of the leading real estate firms serving the entire UAE landscape. Driven by passion for success, PSI has been awarded number 1 real estate agent by key giant developers for the past years. PSI continues to innovate and increase its services to ensure seamless and comprehensive clients’ journeys.</p>
+					<h2 class="h5 text-center mb-3">About RAG</h2>
+					<p class="">Established in 2007, RAG (PSI) is one of the leading real estate firms serving the entire UAE landscape. Driven by passion for success, RAG has been awarded number 1 real estate agent by key giant developers for the past years. RAG continues to innovate and increase its services to ensure seamless and comprehensive clients’ journeys.</p>
 					<h2 class="h6 mb-3">Why PSI</h2>
-					<p class="">Our solid reputation in the industry is supported by our continuous pursuit of quality and superiority in all the services we offer. Our combination of vision, expertise, specialised teams, enthusiasm and transparency entitles Property Shop Investment to set the market standard as an influencer of Abu Dhabi's Real Estate Market</p>
-					<p class="">As an award-winning, full-service brokerage, Property Shop Investment is known for exceeding all expectations. We aim for the highest performance and have been awarded the 'Number One Real Estate Broker in Abu Dhabi' for then consecutive years.</p>
+					<p class="">Our solid reputation in the industry is supported by our continuous pursuit of quality and superiority in all the services we offer. Our combination of vision, expertise, specialised teams, enthusiasm and transparency entitles RAG to set the market standard as an influencer of Abu Dhabi's Real Estate Market</p>
+					<p class="">As an award-winning, full-service brokerage, RAG is known for exceeding all expectations. We aim for the highest performance and have been awarded the 'Number One Real Estate Broker in Abu Dhabi' for then consecutive years.</p>
 					
 				</div>
 			</div>
@@ -1551,23 +1597,23 @@
 				<div class="d-flex flex-nowrap">
 					<div class="social-wrapper" style="overflow: auto;">
 						<ul class="d-flex" style="list-style-type: none !important; padding-left: 0px">
-							<li><a title=" PSi instagram page" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="PSI Instagram Page"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-							<li><a title="PSI facebook Page" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-							<li><a title=" PSI snapchat Page" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="Snapchat"><i class="fab fa-snapchat" aria-hidden="true"></i></a></li>
+							<li><a title=" RAG instagram page" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="RAG Instagram Page"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a title="RAG facebook Page" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a title=" RAG snapchat Page" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="Snapchat"><i class="fab fa-snapchat" aria-hidden="true"></i></a></li>
 							<li>
-								<a title=" PSI twitter Page" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="Twitter">
+								<a title=" RAG twitter Page" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="Twitter">
 									<div class="icon-outer"><i class="fab fa-twitter" aria-hidden="true"></i></div>
 								</a>
 							</li>
-							<li><a title="PSI linkedin page" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="Linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-							<li><a title="PSI youtube page" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="Youtube"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
-							<li><a title="PSI tiktok page" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="Tiktok"><i class="fab fa-tiktok" aria-hidden="true"></i></a></li>
-							<li><a title="PSI Whatsapp" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="Whatsapp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+							<li><a title="RAG linkedin page" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="Linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+							<li><a title="RAG youtube page" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="Youtube"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+							<li><a title="RAG tiktok page" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="Tiktok"><i class="fab fa-tiktok" aria-hidden="true"></i></a></li>
+							<li><a title="RAG Whatsapp" target="_blank" href="#" class="h-8 w-8 rounded-full block cursor-pointer" aria-label="Whatsapp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
 				</div>
-				<p class="my-0 py-0" style="margin-bottom: 0px!important;"><a title="PSI privacy Policy " href="#">Privacy</a> | <a title="PSI terms and conditions" href="#">Terms of Use</a></p>
-				<p class="my-0 py-0" style="margin-bottom: 0px!important; direction: ltr!important;">© 2023 Property Shop Investment LLC.</p>
+				<p class="my-0 py-0" style="margin-bottom: 0px!important;"><a title="RAG privacy Policy " href="#">Privacy</a> | <a title="RAG terms and conditions" href="#">Terms of Use</a></p>
+				<p class="my-0 py-0" style="margin-bottom: 0px!important; direction: ltr!important;">© 2023 RAG.</p>
 				<p class="my-0 py-0" style="margin-bottom: 0px!important;"> All Rights Reserved.</p>
 				<p>
 				
@@ -1575,8 +1621,8 @@
 						<br>Addax Tower Level 44
 						<br>Al Reem Island, City of Lights
 						<br>Abu Dhabi, United Arab Emirates
-						<br> Local Tel: <a title="PSI Phone number" href="tel:600548200"> 600 548 200</a>
-						<br> Int'l Tel: <a title="PSI phone number" href="tel:+97122052999">+971 2205 2999</a></p>
+						<br> Local Tel: <a title="RAG Phone number" href="tel:600548200"> 600 548 200</a>
+						<br> Int'l Tel: <a title="RAG phone number" href="tel:+97122052999">+971 2205 2999</a></p>
 			</div>
 			<div class="col-lg-2 col-md-2 col-6 order-lg-2 order-1">
 				<h4>Explore</h4>
@@ -1594,19 +1640,18 @@
 				<!-- <p><a title="Properties in Renad Tower" href="/en/project/renad-tower-reem-island/">Renad Tower</a></p> -->
 			</div>
 			<div class="col-lg-3 col-md-4 col-6 order-lg-4 order-3">
-				<h4 class="d-none d-md-block">Property Shop Investment</h4>
-				<h4 class="d-block d-md-none">PSI</h4>
+				<h4>RAG</h4>
 				<p><a title="About us-PSI" href="#">About Us</a></p>
 				<p><a title="Carres in PSI" href="#">Careers</a></p>
-				<p><a title="PSI Blog" target="_blank" href="#">Blog</a></p>
-				<p><a title="PSI Contact Us" href="#">Contact Us</a></p>
+				<p><a title="RAG Blog" target="_blank" href="#">Blog</a></p>
+				<p><a title="RAG Contact Us" href="#">Contact Us</a></p>
 			</div>
 			<div class="col-lg-2 col-md-3 col-6 order-lg-5 order-4">
 				<h4>Important Links</h4>
 				<p><a title="Mortgage Calculator" href="#">Mortgage Calculator</a></p>
 				<p class="d-none"><a title="Interactive Map" href="#">Interactive Map</a></p>
-				<p><a title="PSI International" href="#">International</a></p>
-				<p><a title="PSI Youngster Program" href="#">Youngster Program</a></p>
+				<p><a title="RAG International" href="#">International</a></p>
+				<p><a title="RAG Youngster Program" href="#">Youngster Program</a></p>
 				<p class="d-none"><a title="Articles" href="#">Articles</a></p>
 			</div>
 			<div class="col-12 order-last mb-md-0 mb-4">
@@ -1982,6 +2027,50 @@ if (window.matchMedia("(min-width: 576px)").matches) {
   $(multipleCardCarousel).addClass("slide");
 }
 
+// price filter ................................................
+
+
+const rangeInput = document.querySelectorAll(".range-input input"),
+  priceInput = document.querySelectorAll(".price-input input"),
+  range = document.querySelector(".slider .progress");
+let priceGap = 1000;
+
+priceInput.forEach((input) => {
+  input.addEventListener("input", (e) => {
+    let minPrice = parseInt(priceInput[0].value),
+      maxPrice = parseInt(priceInput[1].value);
+
+    if (maxPrice - minPrice >= priceGap && maxPrice <= rangeInput[1].max) {
+      if (e.target.className === "input-min") {
+        rangeInput[0].value = minPrice;
+        range.style.left = (minPrice / rangeInput[0].max) * 100 + "%";
+      } else {
+        rangeInput[1].value = maxPrice;
+        range.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + "%";
+      }
+    }
+  });
+});
+
+rangeInput.forEach((input) => {
+  input.addEventListener("input", (e) => {
+    let minVal = parseInt(rangeInput[0].value),
+      maxVal = parseInt(rangeInput[1].value);
+
+    if (maxVal - minVal < priceGap) {
+      if (e.target.className === "range-min") {
+        rangeInput[0].value = maxVal - priceGap;
+      } else {
+        rangeInput[1].value = minVal + priceGap;
+      }
+    } else {
+      priceInput[0].value = minVal;
+      priceInput[1].value = maxVal;
+      range.style.left = (minVal / rangeInput[0].max) * 100 + "%";
+      range.style.right = 100 - (maxVal / rangeInput[1].max) * 100 + "%";
+    }
+  });
+});
 	
 	</script>
 	
